@@ -10,7 +10,7 @@ const bedrock = require('bedrock-protocol');
 const realmInvite = 'YOUR_REALM_CODE'
 const modules = {
     'anti_spam': true,
-    'anti_namesooft': true,
+    'anti_namespooft': true,
     'device_filer': true,
     'auto_reconnect': true
 }
@@ -66,8 +66,8 @@ client.on('player_list', (packet) => {
                 origin: { type: 0, uuid: "", request_id: "" }
               });
               return;
-            } else if (!modules.anti_namesooft) return
-
+            } else if (!modules.anti_namespooft) return
+https://github.com/Fredi250510/simple-realm-relay-bot/blob/main/index.js#L13C15
              if (Username.length > 16 || Username.includes('!"§$%&/(()=?*^:;<>|')) {
               console.log(`Player ${Username} has a namespoofed name`);
               client.queue('command_request', {
