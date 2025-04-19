@@ -13,7 +13,8 @@ __Features:__
 > Whitelist
 > 
 > Blocklist
-> 
+
+If you change `debug` to `true` you'll recieve more Infomration on certain events
 
 # Requirements
 
