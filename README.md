@@ -18,7 +18,7 @@ If you change `debug` to `true` you'll recieve more Infomration on certain event
 
 # Requirements
 
-NodeJS Module: `bedrock-protocol`
+NodeJS Module: `bedrock-protocol` (run `npm i bedrock-protocol` to install it)
 
 A PC/Laptop or VPS to host the Bot on
 
